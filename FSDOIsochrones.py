@@ -96,8 +96,8 @@ pools_gdf['repr_point'] = pools_gdf['five_min_isochrones'].centroid
 # 12. Add some styling.
 ax.text(0.05, 0.95, "Walking times\nto New York City's\nFood Scrap\nDrop-off Sites.",
         transform=ax.transAxes, fontsize=25, verticalalignment='top')
-ax.text(0.05, 0.65, f"Walking times computed using an average\nwalking speed of {walk_speed} miles/hour.",
-        transform=ax.transAxes, fontsize=6, verticalalignment='top')
+ax.text(0.05, 0.67, f"Walking times computed using an average\nwalking speed of {walk_speed} miles/hour, travelling\nalong NYC's walkable streets and sidewalks.\n\nData from NYC Open Data as of March 2020,\nlast updated prior to COVID-19 program closure.",
+        transform=ax.transAxes, fontsize=5, verticalalignment='top')
 
 custom_lines = [Line2D([0], [0], color='#8AC926', lw=4),
                 Line2D([0], [0], color='#FFCA3A', lw=4),
