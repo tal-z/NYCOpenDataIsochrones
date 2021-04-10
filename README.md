@@ -5,11 +5,11 @@
 This repo holds files to produce isochrone maps of various location-based resources around NYC, using datasets available via NYC Open Data and NYC DCP.
 
 ## Dependencies:
-######Standard Libraries:
+###### Standard Libraries:
 - os
 - datetime
 
-######Additional Libraries:
+###### Additional Libraries:
 - sodapy
 - pandas
 - geopandas
